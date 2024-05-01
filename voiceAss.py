@@ -28,6 +28,8 @@ def process_command(command):
         speak("Hello! How can I help you?")
     elif "what is your name" in command:
         speak("I'm your voice assistant.")
+    elif "how are you" in command:
+        speak("I'm just a program but thanks for asking.")
     else:
         speak("Sorry, I didn't understand that command.")
 
